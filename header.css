@@ -1,0 +1,447 @@
+
+
+
+.about__intro {
+  background-position: 50% 50%;
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 650px;
+  width: 100%;
+  position: absolute;
+ 
+top: 20px;
+  background-image: url('../images/resurs-1-1.png');
+}
+
+@media (max-width: 540px) {
+  .about__intro {
+    height: 276px;}
+}
+
+.about__intro-content {
+  padding-top: 224px;
+}
+
+@media (max-width: 540px) {
+  .about__intro-content {
+    padding-top: 42px;
+}
+}
+
+.about__intro-logo {
+  display: flex;
+  justify-content: center;
+}
+
+.about__intro-text {
+  font-size: 15px;
+  line-height: 150%;
+  color: #fff;
+  width: 60%;
+  margin: auto;
+  text-align: center;
+  padding-top: 44px;
+}
+
+@media (max-width: 540px) {
+  .about__intro-text {
+    padding-top: 20px;
+    width: 100%;
+}
+}
+
+.about-advantages {
+  margin-bottom: 100px;
+}
+
+@media (max-width: 540px) {
+  .about-advantages {
+    margin-bottom: 0px;
+  }
+}
+
+.about-advantages__title {
+  padding-top: 80px;
+  margin-bottom: 140px;
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 120%;
+  color: #333333;
+}
+@media (max-width: 540px) {
+  .about-advantages__title {
+  padding-top: 20px;
+  width: 80%;
+  margin-bottom: 100px;
+  }
+}
+
+.about-advantages__item {
+  height: 157px;
+  padding: 40px 20px 20px 20px;
+  font-size: 15px;
+  background-color: #013DB1;
+  position: relative;
+}
+
+@media (max-width: 540px) {
+  .about-advantages__item  {
+    margin-bottom: 100px;
+  }
+}
+
+.about-advantages__item-num {
+  position: absolute;
+  content: '';
+  font-size: 24px;
+  margin-right: 15px;
+  left: 25px;
+  bottom: 145px;
+  width: 92px;
+  height: 92px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: 1px solid #E8E8E8;
+  z-index: 1;
+  color: #013DB1;
+}
+
+.about-advantages__item-text {
+  color: #fff;
+  font-size: 15px;
+  line-height: 150%;
+}
+
+.about-common{
+  background: #F8F9FB;
+  padding-top: 100px;
+  padding-bottom: 100px;
+}
+
+@media (max-width: 540px) {
+  .about-common {
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+}
+
+.about-common__title {
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 120%;
+  color: #333333;
+  padding-bottom: 50px;
+}
+
+@media (max-width: 540px) {
+  .about-common__title {
+    padding-bottom: 16px;
+}
+}
+
+.about-common__item-num{
+  font-weight: 500;
+  font-size: 36px;
+  line-height: 110%;
+  color: #333333;
+  padding-bottom: 15px;
+}
+
+@media (max-width: 540px) {
+  .about-common__item-num {
+    font-size: 20px;
+}
+}
+
+.about-common__item-text {
+  font-size: 16px;
+  line-height: 120%;
+  color: #333333;
+}
+
+@media (max-width: 540px) {
+  .about-common__item-text {
+    font-size: 14px;
+}
+}
+
+.about-certificate {
+  padding-top: 100px;
+  padding-bottom: 100px;
+  position: relative;
+}
+
+@media (max-width: 540px) {
+  .about-certificate {
+    padding-top: 25px;
+}
+}
+
+.about-certificate__title {
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 120%;
+  color: #333333;
+  padding-bottom: 30px;
+}
+
+.about-certificate__card {
+  width: 25%;
+  padding: 31px 34px;
+  border: 1px solid #E8E8E8;
+}
+
+@media (max-width: 540px) {
+  .about-certificate__card  {
+    padding: 15px;
+}
+}
+
+@media (max-width: 540px) {
+  .about-certificate-image img {	
+  width: 100%;
+      margin: auto;
+}
+}
+
+.about-certificate__container {
+  overflow: hidden;
+}
+  
+.about-certificate-button {
+  width: 54px;
+  height: 54px;
+  position: absolute;
+  z-index: 2;
+  cursor: pointer;
+  outline: none;
+}
+  
+.about-certificate-button-prev {
+  border: 1px solid rgba(1, 61, 177, 0.3);
+  border-radius: 3px;
+  padding-top: 13px;
+  padding-left: 13px;
+  padding-right: 15px;
+  padding-bottom: 15px;
+  top: 50%;
+  left: 1%;
+}
+
+.about-certificate-button-prev svg {
+  fill: #333333;
+}
+
+.about-certificate-button-prev:hover {
+  background: #013DB1;
+}
+
+.about-certificate-button-prev:hover svg {
+  fill:#fff;
+}
+
+@media (max-width: 540px) {
+  .about-certificate-button-prev {
+      left: 2%;
+      top: 50%;
+}
+}
+  
+.about-certificate-button-next {
+  border: 1px solid rgba(1, 61, 177, 0.3);
+  border-radius: 3px;
+  padding-top: 13px;
+  padding-left: 15px;
+  padding-right: 13px;
+  padding-bottom: 15px;
+  top: 50%;
+  right: 1%;
+}
+
+.about-certificate-button-next:hover {
+  background: #013DB1;
+}
+
+.about-certificate-button-next svg {
+  fill: #333333;
+}
+
+.about-certificate-button-next:hover svg {
+  fill:#fff;
+}
+
+@media (max-width: 540px) {
+  .about-certificate-button-next {
+      right: 2%;
+      top: 50%;
+}
+}
+
+.about-certificate-button-next svg {
+  fill:#333333;
+}
+
+.about-opportunity__wrap {
+  display: flex;
+}
+
+@media (max-width: 540px) {
+  .about-opportunity__wrap {
+    flex-direction: column;
+  }
+}
+
+.about-opportunity__block-text {
+  width: 50%;
+  height: 610px;
+  background: #013DB1;
+  padding-left: 90px;
+}
+
+@media (max-width: 540px) {
+  .about-opportunity__block-text {
+    width: 100%;
+    padding-left: 16px;
+  }
+}
+
+.about-opportunity__block-text-second {
+  height: 740px;
+}
+
+.about-opportunity__block-text-height {
+  height: 740px;
+}
+
+@media (max-width: 540px) {
+  .about-opportunity__block-text-height {
+    height: 850px;
+    order: 1;
+  }
+}
+
+@media (max-width: 540px) {
+  .about-opportunity__block-text-second {
+    order: 1;
+  }
+}
+
+@media (max-width: 540px) {
+  .about-opportunity__content-second {
+    padding-top: 16px;
+    padding-bottom: 0px;
+  }
+}
+
+.about-opportunity__block-image {
+  width: 50%;
+  height: 610px;
+}
+
+.about-opportunity__block-image img {
+  display: block;
+  height: 610px;
+}
+
+@media (max-width: 540px) {
+  .about-opportunity__block-image {
+  width: 100%;
+  height: 247px;
+  }
+}
+
+@media (max-width: 540px) {
+  .about-opportunity__block-image img {
+    width: 100%;
+    height: 247px;
+  }
+}
+
+.about-opportunity__block-image-second img {
+  display: block;
+  height: 740px;
+}
+
+@media (max-width: 540px) {
+  .about-opportunity__block-image-second {
+    width: 100%;
+    height: 316px;
+    order: 2;
+  }
+}
+
+@media (max-width: 540px) {
+  .about-opportunity__block-image-second img {
+      width: 100%;
+      height: 316px;
+  }
+}
+
+.about-opportunity__content {
+    padding-top: 81px;
+    padding-bottom: 81px;
+}
+
+@media (max-width: 540px) {
+  .about-opportunity__content {
+    padding-top: 16px;
+    padding-bottom: 16px;
+  } 
+}
+
+.about-opportunity__content-second {
+  padding-top: 96px;
+  padding-bottom: 96px;
+}
+
+@media (max-width: 540px) {
+  .about-opportunity__content-second {
+    padding-top: 16px;
+    padding-bottom: 16px;
+  } 
+}
+
+@media (max-width: 540px) {
+  .about-opportunity__content-title {
+    width: 100%;
+    font-size: 24px;
+  } 
+}
+
+.about-opportunity__content-title {
+  font-size: 30px;
+  line-height: 120%;
+  color: #fff;
+  padding-bottom: 30px;
+  width: 80%;
+}
+
+@media (max-width: 540px) {
+  .about-opportunity__content-title {
+  width: 100%;
+  font-size: 24px;
+  }
+}
+
+.about-opportunity__content-text {
+  font-size: 15px;
+  line-height: 160%;
+  color: #fff;
+  padding-bottom: 20px;
+  width: 83%;
+}
+
+@media (max-width: 540px) {
+  .about-opportunity__content-text {
+  width: 95%;
+  }
+}
+
+.about-opportunity__content-text-second {
+  padding-bottom: 12px;
+}
+
+.about-opportunity__content-text:last-child {
+  padding-bottom: 0;
+}
